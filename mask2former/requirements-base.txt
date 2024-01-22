@@ -2,3 +2,4 @@
 torch==1.9.0+cu111
 -f https://download.pytorch.org/whl/cu111/torch_stable.html
 torchvision==0.10.0+cu111
+pillow>=10.2.0 # not directly required, pinned by Snyk to avoid a vulnerability
