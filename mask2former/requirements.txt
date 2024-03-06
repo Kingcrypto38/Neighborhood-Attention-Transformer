@@ -14,4 +14,5 @@ natten==0.14.2
 submitit==1.4.5
 python-dotenv==0.21.0
 ninja==1.11.1
-setuptools==59.5.0
+setuptools==65.5.1
+wheel>=0.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
