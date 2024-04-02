@@ -3,3 +3,4 @@ natten==0.14.4
 git+https://github.com/rwightman/pytorch-image-models.git@9d6aad44f8fd32e89e5cca503efe3ada5071cc2a
 fvcore==0.1.5.post20220305
 pyyaml==6.0
+pillow>=10.3.0 # not directly required, pinned by Snyk to avoid a vulnerability
