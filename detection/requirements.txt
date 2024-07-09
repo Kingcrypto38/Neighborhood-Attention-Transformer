@@ -5,3 +5,4 @@ mmcv-full==1.4.8
 mmdet==2.19.0
 git+https://github.com/rwightman/pytorch-image-models.git@9d6aad44f8fd32e89e5cca503efe3ada5071cc2a
 fvcore==0.1.5.post20220305
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
